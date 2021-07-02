@@ -1,0 +1,176 @@
+@media screen and (max-width: 800px){
+    nav1 {
+        display: flex;
+    }
+
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+        justify-content: center;
+    }
+
+    p.nav-name {
+        padding-right: 450px;
+    }
+
+    .data {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        height: 320px;
+        width: 500px;
+    }
+
+    .image-upload {
+        width: 500px;
+    }
+
+    p.contact-text {
+        font-size: 20px;
+
+    }
+
+    span.date {
+        font-size: 18px;
+    }
+
+    img.stroke {
+        display: none;
+    }
+
+    .name {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        padding-left: 30px;
+    }
+
+    .profile {
+        display: none;
+    }
+
+    h3 {
+        display: none;
+    }
+        
+        
+}
+
+@media (min-width: 300px) and (max-width: 660px) {
+    .nav1 {
+        padding-top: 60px;
+    }
+
+    p.nav-name {
+        padding-right: 300px;
+    }
+
+    .image-upload {
+        width: 300px;
+    }
+
+    .contact {
+        width: 300px;
+    }
+
+    p.contact-text {
+        font-size: 12px;
+    }
+
+    .name {
+        padding-top: 30px;
+        width: 80%;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 490px){
+    p.nav-name {
+        padding-right: 130px;
+    }
+
+    .image-upload {
+        width: 300px;
+    }
+
+    .contact {
+        width: 300px;
+        gap: 10px;
+    }
+
+    p.contact-text {
+        font-size: 15px;
+
+    }
+    
+}
+
+@media (min-width: 800px) and (max-width: 1024px){
+    .nav1 {
+        width: 98%;
+        margin: auto;
+    }
+
+    .data {
+        width: 80%;
+        margin: auto;
+        flex-direction: column;
+
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .data2{
+        width: 80%;
+        margin: auto;
+        flex-direction: column;
+
+    }
+
+    .profile {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .structure {
+        text-align: start;
+    }
+
+    p.gender{
+        margin-right: 130px;
+    }
+
+    .report-info{
+        width: 707px;
+    }
+
+    .image-upload {
+        width: 100%;
+    }
+    
+}
